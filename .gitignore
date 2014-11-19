@@ -1,0 +1,29 @@
+#################
+## WordPress
+#################
+.git-rewrite/
+wp-config-local.php
+.elasticbeanstalk/
+*.local.*
+*.remote.*
+*.base.*
+*.backup.*
+*.orig*
+ 
+#ElasticBeanstalk Configs we won't need in the repo
+AWSDevTools/
+AWSDevTools-OneTimeSetup.bat
+AWSDevTools-RepositorySetup.bat
+scripts/
+AWSDevTools-RepositorySetup.sh
+ 
+#These are to ignore media files which we again DON'T want in our GIT Repo.
+wp-content/uploads/
+wp-content/cache/
+
+# Elastic Beanstalk Files
+.elasticbeanstalk/*
+!.elasticbeanstalk/*.cfg.yml
+!.elasticbeanstalk/*.global.yml
+
+.htaccess
