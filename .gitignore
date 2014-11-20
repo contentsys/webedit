@@ -26,5 +26,3 @@ wp-content/cache/
 !.elasticbeanstalk/*.cfg.yml
 !.elasticbeanstalk/*.global.yml
 
-
-.htaccess
